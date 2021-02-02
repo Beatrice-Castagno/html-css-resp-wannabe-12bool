@@ -1,5 +1,5 @@
 /* HEADER */
-.title, .title-hero, .title-main  {
+.title {
   text-align: center;
   padding: 50px 0;
 }
@@ -113,7 +113,7 @@
   }
 
   .box-hero > img {
-    height: 140px;
+    height: 150px;
   }
   /* /hero */
 
