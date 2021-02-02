@@ -1,6 +1,6 @@
 
 /* HEADER */
-.title  {
+.title, .title-hero  {
   text-align: center;
   padding: 50px 0;
 }
@@ -25,3 +25,104 @@
   margin: 0 auto;
 }
 /* /HEADER */
+
+/* MAIN */
+/* hero */
+.hero {
+  background-color: #f9f9f9;
+}
+
+.box-left  ,
+.box-middle ,
+.box-right {
+  text-align: center;
+}
+
+.box-left > img ,
+.box-middle > img,
+.box-right > img {
+  height: 200px;
+}
+
+.box-left > h2 ,
+.box-middle > h2,
+.box-right > h2 {
+  line-height: 50px;
+  font-size: 20px;
+}
+
+.box-left > p ,
+.box-middle > p,
+.box-right > p {
+  line-height: 22px;
+  margin-bottom: 45px;
+}
+
+
+/* /hero */
+
+/* /MAIN */
+/* RESPONSIVE */
+
+/* tablet */
+@media screen and (min-width:768px) and (max-width:991px) {
+  h1 {
+    font-size: 28px;
+  }
+  /* header */
+  .block-left > img, .block-right > img {
+    height: 150px;
+  }
+  /* /header */
+  /* hero */
+  .box-left  ,
+  .box-middle ,
+  .box-right {
+    margin-bottom: 50px;
+  }
+
+  .box-left P,
+  .box-middle P,
+  .box-right P {
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .box-left > img ,
+  .box-middle > img,
+  .box-right > img {
+    height: 140px;
+  }
+  /* /hero */
+}
+/* smartphone */
+@media screen and (max-width:767px) {
+
+  h1 {
+    font-size: 25px;
+  }
+  /* header */
+  .block-left > img, .block-right > img {
+    height: 100px;
+  }
+  /* /header */
+  /* hero */
+  .box-left  ,
+  .box-middle ,
+  .box-right {
+    margin-bottom: 40px;
+  }
+
+  .box-left > img ,
+  .box-middle > img,
+  .box-right > img {
+    height: 120px;
+  }
+  .box-left P,
+  .box-middle P,
+  .box-right P {
+    width: 45%;
+    margin: 0 auto;
+  }
+  /* /hero */
+}
